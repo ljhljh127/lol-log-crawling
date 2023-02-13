@@ -9,5 +9,5 @@ RUN apt-get update\
     && pip install webdriver-manager
 
 
-Copy ./test.py
+COPY ./test.py
 
