@@ -44,7 +44,7 @@ Copy ./test.py
 
 ---
 
-### 도커파일은 다음과 같이 실행한다.
+### 도커이미지는 다음과 같이 실행한다.
 
 **docker run -it --name (컨테이너명) pythoncrawling python3 test.py**
 
