@@ -23,7 +23,7 @@ RUN apt-get update\
     && pip install selenium \
     && pip install webdriver-manager
 
-Copy ./test.py
+COPY ./test.py
 ```
 
 1. **FROM** 명령어로 ubuntu 기반의 이미지를 지정하였다.
